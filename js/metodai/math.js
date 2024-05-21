@@ -58,3 +58,13 @@ console.log(Math.random())              // intervale nuo 0 iki 1 --> [0..1)
 console.log(Math.random()*10)           // intervale iki 10
 
 console.log(Math.random()*-7.5)
+
+
+console.log(Math.sign(5));
+console.log(Math.sign(-5));
+console.log(Math.sign(0));
+console.log(Math.sign(-0));
+console.log(Math.sign(Infinity));
+console.log(Math.sign(-Infinity));
+console.log(Math.sign(NaN));
+
